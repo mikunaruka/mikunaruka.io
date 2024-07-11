@@ -1,0 +1,387 @@
+@font-face {
+    font-family: 'iconfont';
+    src: url('iconfont.woff2?t=1703172107489') format('woff2'),
+        url('iconfont.woff?t=1703172107489') format('woff'),
+        url('iconfont.ttf?t=1703172107489') format('truetype');
+}
+
+.iconfont {
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon {
+    width: 1em;
+    height: 1em;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+}
+
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.w1 {
+    width: 1550px;
+    margin: 0 auto;
+}
+
+.wenzhi {
+    float: left;
+    margin-left: 10px;
+    font-size: 19px;
+    display: block;
+    line-height: 76px;
+    width: 500px;
+    height: 76px;
+    color: #e1e1e1;
+    font-weight: 400;
+    font-family: 宋体;
+}
+
+.nav {
+    width: 1600px;
+    height: 76px;
+}
+
+.navr {
+    float: right;
+    height: 75px;
+
+}
+
+.navr ul li {
+    float: left;
+    margin-left: 20px;
+}
+
+.navr ul li a {
+
+    padding: 4px;
+    float: right;
+    text-align: center;
+    color: #e1e1e1;
+    font-size: 19px;
+    line-height: 76px;
+}
+
+.navr ul li .n1::before {
+    content: '\e603';
+    text-align: center;
+    font-family: 'iconfont';
+    margin-right: 5px;
+    font-size: 20px;
+    color: #ff2a14;
+}
+
+.navr ul li .n2::before {
+    content: '\e60d';
+    text-align: center;
+    font-family: 'iconfont';
+    margin-right: 5px;
+    font-size: 20px;
+
+}
+
+.navr ul li .n3::before {
+    content: '\e610';
+    text-align: center;
+    font-family: 'iconfont';
+    margin-right: 5px;
+    font-size: 20px;
+
+}
+
+.navr ul li .n4::before {
+    content: '\e601';
+    text-align: center;
+    font-family: 'iconfont';
+    margin-right: 5px;
+    font-size: 20px;
+
+}
+
+.navr ul li .n5::before {
+    content: '\e811';
+    text-align: center;
+    font-family: 'iconfont';
+    margin-right: 5px;
+    font-size: 20px;
+
+}
+
+.navr ul li .n6::before {
+    content: '\fb79';
+    text-align: center;
+    font-family: 'iconfont';
+    margin-right: 5px;
+    font-size: 20px;
+
+}
+
+.navr ul li .n7::before {
+    content: '\e643';
+    text-align: center;
+    font-family: 'iconfont';
+    margin-right: 5px;
+    font-size: 20px;
+
+}
+
+.navr ul li .n8::after {
+    content: '\e6c1';
+    text-align: center;
+    font-family: 'iconfont';
+    font-size: 20px;
+    position: relative;
+    top: 2px;
+
+}
+
+
+.navr ul li .n9::after {
+    content: '\e60e';
+    text-align: center;
+    font-family: 'iconfont';
+    position: relative;
+    top: 2px;
+
+    font-size: 28px;
+
+}
+
+.navr ul li a:hover {
+    color: #ff2a14;
+}
+
+.logo {
+    margin: 0 auto;
+    width: 500px;
+    height: 200px;
+}
+
+.logo img {
+    bottom: 39px;
+    right: 50px;
+    width: 430px;
+    position: relative;
+    height: 288px;
+}
+
+.logo h1 {
+    float: right;
+    position: relative;
+    right: 45px;
+    bottom: 225px;
+    font-size: 50px;
+    color: #c8c8c8;
+}
+
+.logo h3 {
+    position: relative;
+    bottom: 160px;
+    left: 275px;
+}
+
+.search {
+    position: relative;
+    left: 200px;
+    height: 56px;
+    width: 700px;
+}
+
+.input {
+    background-color: #25252b;
+    border-radius: 20px 0 0 20px;
+    position: absolute;
+    left: 50%;
+    margin-left: -500px;
+    border: none;
+    color: #e3e3e4;
+    width: 650px;
+    height: 56px;
+    font-size: 16px;
+    box-sizing: border-box;
+    padding: 0 10px 0 20px;
+}
+
+
+.icon-search {
+    width: 60px;
+    height: 56px;
+    text-align: center;
+    font-size: 35px;
+    color: #ff2a14;
+    position: absolute;
+    right: 200px;
+    top: 0;
+    background-color: #25252b;
+}
+
+.icon-search::after {
+    position: absolute;
+    top: 5px;
+    right: 30px;
+    content: '\e60c';
+    font-family: 'iconfont';
+
+    color: #ff2a14;
+
+}
+
+.btn {
+    position: absolute;
+    right: 153px;
+    background-color: #25252b;
+    width: 47px;
+    height: 56px;
+    border-left: 2px solid #ff2a14;
+    border-radius: 0 20px 20px 0;
+}
+
+.btn::after {
+    content: '\e647';
+    font-family: 'iconfont';
+    color: #ff2a14;
+    font-size: 25px;
+    border-radius: 0 20px 20px 0;
+}
+
+
+.hotbo {
+    width: 1600px;
+    height: 50px;
+}
+
+.hotbo::before {
+    content: '\e600';
+    font-family: 'iconfont';
+    color: #ff2a14;
+    font-size: 40px;
+}
+
+.hotbo h1 {
+    display: inline;
+    width: 100px;
+    font-size: 40px;
+    color: #e1e1e1;
+}
+
+.hotbodm {
+    height: 800px;
+    padding-top: 56px;
+}
+
+.hotbodm ul li {
+    float: left;
+    vertical-align: top;
+    width: 238px;
+    height: 334px;
+    margin-right: 20px;
+    margin-bottom: 72px;
+}
+
+.hotbodm ul li a>img {
+    width: 238px;
+    height: 334px;
+    border-radius: 8px;
+}
+
+.hotbodm ul li a>h1 {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 19px;
+    color: #e1e1e1;
+}
+
+.hotbodm ul li p {
+    font-size: 16px;
+    color: #a28c6e;
+}
+
+/* --------热播结束--------- */
+.dangzhengtou {
+    height: 50px;
+}
+
+.dangzhengtou::before {
+    content: '\e60f';
+    font-family: 'iconfont';
+    color: #ff2a14;
+    font-size: 40px;
+}
+
+.dangzhengtou h1 {
+    display: inline;
+    width: 100px;
+    font-size: 40px;
+    color: #e1e1e1;
+}
+
+.dangzheng {
+    height: 800px;
+    padding-top: 25px;
+}
+
+.dangzheng ul li {
+    float: left;
+    vertical-align: top;
+    width: 238px;
+    height: 334px;
+    margin-right: 20px;
+    margin-bottom: 72px;
+}
+
+.dangzheng ul li a>img {
+    width: 238px;
+    height: 334px;
+    border-radius: 8px;
+}
+
+.dangzheng ul li a>h1 {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 19px;
+    color: #e1e1e1;
+}
+
+.dangzheng ul li p {
+    font-size: 16px;
+    color: #a28c6e;
+}
+
+/* 党争end */
+.chunai {
+    height: 50px;
+}
+
+.chunai::before {
+    content: '\e608';
+    font-family: 'iconfont';
+    color: #ff2a14;
+    font-size: 40px;
+}
+
+.chunai h1 {
+    display: inline;
+    width: 100px;
+    font-size: 40px;
+    color: #e1e1e1;
+}
+
+/* 纯爱end */
+/* 返回顶部 */
+.fanghui img {
+    position: fixed;
+    top: 600px;
+    right: 0;
+    width: 95px;
+    height: 95px;
+}

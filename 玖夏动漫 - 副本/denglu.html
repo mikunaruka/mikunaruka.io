@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>玖夏动漫登录-专注于动漫</title>
+    <meta name="description" content="-专注于在线动漫的网站">
+    <link rel="shortcut icon" href=" images\bitbug_favicon (1).ico" />
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css\denglu.css">
+    <style>
+        body {
+            background: url('./动漫图片登录/1.jpg') no-repeat top center/cover;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div id="login_box">
+        <h1>登录</h1>
+        <div id="input_box">
+            <input type="text" placeholder="用户名">
+        </div>
+        <div class="input_box">
+            <input type="password" placeholder="密码">
+        </div>
+        <a href="shouye.html">
+            <p><img src="images\bitbug_favicon.ico" alt="">懒得登录返回首页</p>
+        </a>
+        <a href="zhuce.html"><img src="images\bitbug_favicon (2).ico" alt="">未注册？去注册</a>
+        <button>登录</button><br>
+    </div>
+    <script>
+        function getrandom(n, m) {
+            return Math.floor(Math.random() * (m - n + 1)) + n
+        }
+        const a = getrandom(1, 5)
+        document.body.style.backgroundImage = `url(./动漫图片登录/${a}.jpg) `
+    </script>
+</body>
+
+</html>
